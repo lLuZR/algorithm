@@ -36,7 +36,7 @@
 				j--;
 			}
 			if( i<=j ){
-				swapQuickStort( array, i, j );
+          swapQuickSort( array, i, j );
 				i++;
 				j--;
 			}
@@ -44,7 +44,7 @@
 		return i;
 	}
 
-	function swapQuickStort( array, index1, index2 ) {
+	function swapQuickSort( array, index1, index2 ) {
 		let aux = array[index1];
 		array[index1] = array[index2];
 		array[index2] = aux;
